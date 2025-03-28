@@ -1,0 +1,44 @@
+/* Paleta de colores */
+:root {
+  --p-50: #f0fdf9;
+  --p-100: #ccfbee;
+  --p-200: #98f7e0;
+  --p-300: #5debcd;
+  --p-400: #2cd5b7;
+  --p-500: #13bea2;
+  --p-600: #0c9582;
+  --p-700: #0e7769;
+  --p-800: #105f56;
+  --p-900: #124f47;
+  --p-950: #042f2c;
+}
+
+.minavbar{
+  background-color: var(--p-500);
+}
+
+.mibg{
+  background-color: var(--p-700);
+}
+.bgcard{
+  background-color: var(--p-50);
+}
+
+.textitle{
+  color: var(--p-50);
+}
+
+.bgfooter{
+  background-color: var(--p-950);
+}
+
+
+/* Cambiar el color de hover para los enlaces del navbar */
+.navbar-nav .nav-link:hover {
+  color: var(--p-700) !important; /* Color personalizado en hover */
+  background-color: rgba(255, 99, 71, 0.1); /* Fondo suave al pasar el cursor (opcional) */
+  border-radius: 10px; /* Puedes ajustar este valor */
+  overflow: hidden; /* Esto asegura que el contenido dentro no sobresalga */
+}
+
+
